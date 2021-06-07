@@ -10,7 +10,7 @@ library(dplyr)
 
 identity <- function(df, pair_length) {
   pair1 <- df$.y[1:pair_length]
-  pair2 <- df$.y[2*pair_length+1:3*pair_length]
+  pair2 <- df$.y[(2*pair_length+1):(3*pair_length)]
   df %>% mutate(identity = c(pair1, pair1, pair2, pair2))
 }
 

@@ -3,13 +3,5 @@
   "description": "Returns the per pairing identity of the input values.",
   "tags": ["identity", "pamgene"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/identity_operator"],
-  "properties": [
-  {
-    "kind": "DoubleProperty",
-    "name": "Pair length",
-    "defaultValue": 3,
-    "description": "Value of the pair/control variable."
-  }
-  ]
+  "urls": ["https://github.com/tercen/identity_operator"]
 }

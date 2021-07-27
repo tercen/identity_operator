@@ -16,7 +16,7 @@ Output relations|.
 
 ##### Details
 
-The operator takes the value defined by the y-axis and groups the data by row. The output data returns the input data but just for the Control group. 
+The operator takes the value defined by the y-axis per cell and returns the identity of this value.
 
 ##### See Also
 

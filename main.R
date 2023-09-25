@@ -1,6 +1,8 @@
-library(tercenApi)
-library(tercen)
-library(dplyr, warn.conflicts = FALSE)
+suppressPackageStartupMessages({
+  library(tercenApi)
+  library(tercen)
+  library(dplyr, warn.conflicts = FALSE)
+})
 
 ctx = tercenCtx()
 

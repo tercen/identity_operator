@@ -1,7 +1,7 @@
 {
   "name": "Identity",
   "description": "Returns the per pairing identity of the input values.",
-  "tags": ["identity", "pamgene"],
+  "tags": ["data preprocessing"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/identity_operator"]
 }

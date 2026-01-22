@@ -23,7 +23,7 @@
             "name": "Row",
             "type": "",
             "description": "Optional row factor.",
-            "ontologyMapping": "row",
+            "ontologyMapping": "variable",
             "crosstabMapping": "row",
             "cardinality": "0..n",
             "factors": []
@@ -33,7 +33,7 @@
             "name": "Column",
             "type": "",
             "description": "Optional column factor.",
-            "ontologyMapping": "column",
+            "ontologyMapping": "observation",
             "crosstabMapping": "column",
             "cardinality": "0..n",
             "factors": []
@@ -48,7 +48,7 @@
                 "name": "Y Value",
                 "type": "numeric",
                 "description": "Numeric y-value",
-                "ontologyMapping": "y-axis",
+                "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
                 "cardinality": "1",
                 "factors": []

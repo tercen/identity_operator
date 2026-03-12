@@ -46,7 +46,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Y Value",
-                "type": "numeric",
+                "type": "double",
                 "description": "Numeric y-value",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
